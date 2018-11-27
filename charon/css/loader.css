@@ -1,0 +1,138 @@
+.loader {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: calc(50vh - 150px);
+  left: calc(50vw - 150px); }
+  .loader .loader-circles {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    width: 125px;
+    height: 125px; }
+    .loader .loader-circles .circle {
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      background-color: transparent;
+      border: 2.5px solid #fff;
+      border-radius: 50%;
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+      text-align: center; }
+      .loader .loader-circles .circle:nth-child(even) {
+        border-color: #fff;
+        opacity: 0.25;
+        border-bottom-color: transparent;
+        border-right-color: transparent; }
+      .loader .loader-circles .circle:nth-child(odd) {
+        border-color: #fff;
+        border-bottom-color: transparent;
+        border-right-color: transparent; }
+      .loader .loader-circles .circle:nth-child(1) {
+        width: 12.5px;
+        height: 12.5px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 12s; }
+      .loader .loader-circles .circle:nth-child(2) {
+        width: 25px;
+        height: 25px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 6s; }
+      .loader .loader-circles .circle:nth-child(3) {
+        width: 37.5px;
+        height: 37.5px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 4s; }
+      .loader .loader-circles .circle:nth-child(4) {
+        width: 50px;
+        height: 50px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 3s; }
+      .loader .loader-circles .circle:nth-child(5) {
+        width: 62.5px;
+        height: 62.5px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 2.4s; }
+      .loader .loader-circles .circle:nth-child(6) {
+        width: 75px;
+        height: 75px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 2s; }
+      .loader .loader-circles .circle:nth-child(7) {
+        width: 87.5px;
+        height: 87.5px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 1.71429s; }
+      .loader .loader-circles .circle:nth-child(8) {
+        width: 100px;
+        height: 100px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 1.5s; }
+      .loader .loader-circles .circle:nth-child(9) {
+        width: 112.5px;
+        height: 112.5px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 1.33333s; }
+      .loader .loader-circles .circle:nth-child(10) {
+        width: 125px;
+        height: 125px;
+        animation: rotate-circle linear infinite;
+        animation-duration: 1.2s; }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-circle {
+  100% {
+    transform: rotate(360deg); } }
+  .loader .animated {
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; }
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+  .loader .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut; }
